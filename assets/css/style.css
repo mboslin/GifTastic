@@ -1,0 +1,28 @@
+
+body {
+	background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+	background-size: auto;
+}
+
+#food-form {
+	float: right;
+}
+
+h2 {
+	color: rgb(248, 190, 83);
+	text-align: center;
+	text-shadow: 1px 0 0 rgb(7, 7, 7);
+}
+
+input {
+	align-content: center;
+}
+
+#foodButtons-view {
+	float: left;
+}
+
+button, div, form, input {
+	margin: 10px;
+}
