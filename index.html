@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us">
+
 <head>
 
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	
-	<!-- Bootstrap link. -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-<!-- CSS file extension link. -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Bootstrap link. -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
-	<title>GifTastic</title>
+  <!-- CSS file extension link. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <title>GifTastic</title>
 
 </head>
 
 <body>
-<!-- Creates the buttons for "food" along the top of the page. -->
+  <!-- Creates the buttons for "food" along the top of the page. -->
   <div id="foodButtons"></div>
 
-<!-- Creates a form that allows the user to make inputs for "food" selections. -->
+  <!-- Creates a form that allows the user to make inputs for "food" selections. -->
   <form id="food-form">
-  	<h2 id="searchFood">PICK a Food!</h2>
+    <h2 id="searchFood">PICK a Food!</h2>
     <label for="food-input"></label>
     <input type="text" id="food-input"><br>
-    
+
     <!-- Button triggers user's new food giphy to be created. -->
     <input type="button" class="btn btn-danger" id="addfood" type="submit" value="Add Your Food">
   </form>
-  
+
   <!-- User's keyboard entry will generate new giphy content here. -->
   <div id="foodButtonsView"></div>
 
   <!-- jQuery script link. -->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/javascript/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
+
 </html>
