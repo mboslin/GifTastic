@@ -14,7 +14,7 @@ function displayfoodInfo() {
   var food = $(this).attr("data-name");
 
   // Search query with giphy API key with limit of 10 results.
-  var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=WEdKMniBcpH47EWGg56KynEXKfiNI5Op&limit=10";
+  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + food + "&api_key=WEdKMniBcpH47EWGg56KynEXKfiNI5Op&limit=10";
 
 
   // Uses ajax to search URL with Get method with new function called "done".
